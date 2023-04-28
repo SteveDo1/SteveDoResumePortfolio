@@ -7,7 +7,8 @@
 - Looking for software development opportunities in September 2023!
 
 ## About
-Hi there! My name is Steve Do, and I am a software developer with a passion for web development. I am a recent new graduate but have worked on a variety of projects that range from small websites to large-scale web applications. When I'm not coding, you can find me exploring new technologies, building custom keyboards, or playing League of Legends. 
+Hi there! My name is Steve Do, and I am a software developer with a passion for web development. I am a recent new graduate but have worked on a variety of projects that range from small websites to large-scale web applications. 
+sWhen I'm not coding, you can find me exploring new technologies, building custom keyboards, or playing League of Legends. 
 
 ## Contact
 Write your "Contact" section here.

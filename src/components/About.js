@@ -31,6 +31,7 @@ export default function About({ color }) {
             <Text color={"white.600"} fontSize={"xl"} px={4}>
               {profile.about}
             </Text>
+            {/* TODO: Add section for profile picture, skills, marquis */}
           </Stack>
         </Container>
       </>
