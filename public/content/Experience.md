@@ -1,6 +1,6 @@
 ## BlackBerry
 - *Junior Cyber Forensics Analyst Co-op* | May 2023 - August 2023
-- ![logo512](../assets/blackberry.png)
+- ![logo512](../assets/experience/blackberry.png)
 - Tags: Category 1
 - Badges:
   - Cybersecurity [red]
@@ -12,7 +12,7 @@
 
 ## Royal Bank of Canada
 - *Automation Analyst Co-op* | January 2022 - July 2022
-- ![logo512](../assets/rbc.png)
+- ![logo512](../assets/experience/rbc.png)
 - Tags: Category 1
 - Badges:
   - Process Automation [green]
@@ -24,7 +24,7 @@
 
 ## RBC Investor & Treasury Services
 - *Automation Developer Co-op* | September 2021 - December 2021
-- ![logo512](../assets/rbc.png)
+- ![logo512](../assets/experience/rbc.png)
 - Tags: Category 1
 - Badges:
   - DevOps Automation [blue]
@@ -36,7 +36,7 @@
 
 ## Royal Bank of Canada
 - *Automation Analyst Co-op* | May 2021 - September 2021
-- ![logo512](../assets/rbc.png)
+- ![logo512](../assets/experience/rbc.png)
 - Tags: Category 1
 - Badges:
   - Process Automation [yellow]

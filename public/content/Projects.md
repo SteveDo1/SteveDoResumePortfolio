@@ -1,6 +1,6 @@
 ## Project A
 Description
-- ![600x200](https://via.placeholder.com/600x200)
+- ![600x200](../assets/projects/Project1.png)
 - Tags: Category 1
 - Badges:
   - Badge [blue]

@@ -10,6 +10,7 @@ import {
   createIcon,
 } from "@chakra-ui/react";
 import ProfileArray from "./ProfileArray";
+import { TypeAnimation } from 'react-type-animation';
 
 export default function Header({ color }) {
   const profile = ProfileArray();
@@ -47,9 +48,25 @@ export default function Header({ color }) {
             lineHeight={"110%"}
           >
             {profile.headerName} <br />
-            <Text as={"span"} color={`${color}.400`}>
+            {/* TODO: Add Animation */}
+            
+              <Text as={"span"} color={`${color}.400`}>
+              <TypeAnimation
+              sequence={[
+                'I build things for the web.',
+                1300,
+                'I am a problem solver.',
+                1300,
+                'I am a continuous learner.',
+                1300
+              ]}
+              speed={40}
+              repeat={Infinity}
+              />
+              </Text>
+            {/* <Text as={"span"} color={`${color}.400`}>
               {profile.headerRole}
-            </Text>
+            </Text> */}
           </Heading>
           <Text
             color={"gray.500"}
