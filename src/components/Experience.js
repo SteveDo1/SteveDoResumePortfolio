@@ -38,6 +38,7 @@ export default function Experience({ color }) {
   
   const handleSelected = (value) => {
     setSelected(value);
+    console.log(value);
   };
 
   return (
@@ -59,7 +60,7 @@ export default function Experience({ color }) {
             <Divider orientation="horizontal" />
           </Stack>
           {/* Code for Button Filters*/}
-          {/* <Center px={4}>
+          <Center px={4}>
             <ButtonGroup variant="outline">
               {options.map((option) => (
                 <Button
@@ -70,11 +71,11 @@ export default function Experience({ color }) {
                 </Button>
               ))}
             </ButtonGroup>
-          </Center> */}
+          </Center>
           <Stack px={4} spacing={4}>
             {experience
               // This is to filter results
-              // .filter((exp) => exp.tags.includes(selected))
+              .filter((exp) => exp.tags.includes(selected))
               .map((exp) => (
                 <Fade bottom>
                   <Card key={exp.company} size="sm">

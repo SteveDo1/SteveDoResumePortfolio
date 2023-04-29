@@ -1,7 +1,7 @@
 ## BlackBerry
 - *Junior Cyber Forensics Analyst Co-op* | May 2023 - August 2023
 - ![logo512](../assets/experience/blackberry.png)
-- Tags: Category 1
+- Tags: Tech
 - Badges:
   - Cybersecurity [red]
   - Digital Forensics [red]
@@ -13,7 +13,7 @@
 ## Royal Bank of Canada
 - *Automation Analyst Co-op* | January 2022 - July 2022
 - ![logo512](../assets/experience/rbc.png)
-- Tags: Category 1
+- Tags: Tech
 - Badges:
   - Process Automation [green]
   - Web Development [green]
@@ -25,7 +25,7 @@
 ## RBC Investor & Treasury Services
 - *Automation Developer Co-op* | September 2021 - December 2021
 - ![logo512](../assets/experience/rbc.png)
-- Tags: Category 1
+- Tags: Tech
 - Badges:
   - DevOps Automation [blue]
   - Data Analysis [blue]
@@ -37,10 +37,55 @@
 ## Royal Bank of Canada
 - *Automation Analyst Co-op* | May 2021 - September 2021
 - ![logo512](../assets/experience/rbc.png)
-- Tags: Category 1
+- Tags: Tech
 - Badges:
   - Process Automation [yellow]
   - Web Development [yellow]
 - List Items:
   - Automated supplier risk reporting processes by using SharePoint, Tableau, and VBA
   - Created a SharePoint site for Quarterly Third-Party Risk Performance Monitoring surveys that tracks data through a Tableau dashboard
+
+## BDO
+- *Financial Analyst* | March 2019 - May 2019
+- ![logo512](../assets/experience/bdo.png)
+- Tags: Business
+- Badges:
+  - Finance [green]
+  - Valuations [green]
+- List Items:
+  - Analyzed company and industry-specific strengths, weaknesses, opportunities and threats with a view to determine the cash flow risks of the companies involved
+
+## Royal Bank of Canada
+- *Junior Strategy Analyst Co-op* | January 2018 - April 2018
+- ![logo512](../assets/experience/rbc.png)
+- Tags: Business
+- Badges:
+  - Process Automation [yellow]
+  - Business Intelligence [yellow]
+- List Items:
+  - Produced financial metric reports, scorecards and graphs on a monthly & quarterly basis
+  - Analyzed performance through data analytics by utilizing Tableau, MS Access & Excel
+  - Improved and enhanced the reporting process by streamlining and automating reports
+
+## Royal Bank of Canada
+- *Reconciliation Officer Co-op* | September 2017 - December 2017
+- ![logo512](../assets/experience/rbc.png)
+- Tags: Business
+- Badges:
+  - Accounting [green]
+  - Finance [green]
+- List Items:
+  - Supported the Finance Shared Services Team in auditing and executing monthly GL processes and reconciliations
+  - Saved $760 per year through streamlining reconciliation processes and excel templates which enhanced workflow
+
+## Canada Revenue Agency
+- *Non-Filer Officer Co-op* | January 2017 - April 2017
+- ![logo512](../assets/experience/cra.png)
+- Tags: Business
+- Badges:
+  - Government [yellow]
+  - Investigations [yellow]
+- List Items:
+  - Responsible for ensuring compliance with the filing requirements of individuals, businesses, corporations and trusts as outlined in the Income Tax Act
+  - Presented digital process improvements to the Innovation Committee, aimed at reducing wait times for officers by ensuring consistency in letter creation, thus showcasing potential cost saving
+

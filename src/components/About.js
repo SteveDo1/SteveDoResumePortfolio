@@ -1,4 +1,5 @@
 import {
+  Image,
   Divider,
   Stack,
   Text,
@@ -7,7 +8,7 @@ import {
   HStack,
 } from "@chakra-ui/react";
 import ProfileArray from "./ProfileArray";
-
+import profilePic from "../assets/profilepic.jpg"
 export default function About({ color }) {
   const profile = ProfileArray();
     return (
@@ -28,10 +29,23 @@ export default function About({ color }) {
               </HStack>
               <Divider orientation="horizontal" />
             </Stack>
-            <Text color={"white.600"} fontSize={"xl"} px={4}>
-              {profile.about}
-            </Text>
+            <Stack>
+              <HStack mx={1}>
+                <Image
+                  borderRadius='full'
+                  boxSize='150px'
+                  //src='https://media.licdn.com/dms/image/C4E03AQHZysailNTsww/profile-displayphoto-shrink_800_800/0/1520392582627?e=1687996800&v=beta&t=2e685tW1f9iZfiNtlGuSoEI4tDVyt8iYIfzhVY_fmJc'
+                  src= {profilePic}
+                  alt='Steve Do Profile Picture'
+                />
+                <Text color={"white.600"} fontSize={"xl"} px={3}>
+                  {profile.about}
+                </Text>
+                </HStack>
+            </Stack>
+            
             {/* TODO: Add section for profile picture, skills, marquis */}
+            
           </Stack>
         </Container>
       </>

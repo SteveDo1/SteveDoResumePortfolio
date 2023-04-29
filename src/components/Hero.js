@@ -11,13 +11,9 @@ import {
 } from "@chakra-ui/react";
 import ProfileArray from "./ProfileArray";
 import { TypeAnimation } from 'react-type-animation';
-
+import resume from "../assets/Steve_Do_Resume.pdf";
 export default function Header({ color }) {
   const profile = ProfileArray();
-  const scrollToContact = () => {
-    const contactSection = document.querySelector("#contact");
-    contactSection.scrollIntoView({ behavior: "smooth" });
-  };
   const linkedin = () => {
     window.open(
                 `${profile.linkedin}`,
@@ -25,6 +21,13 @@ export default function Header({ color }) {
                 "noreferrer,noopener"
               );
   };
+const resumeDownload = () => {
+  window.open(
+              resume,
+              "_blank",
+  );
+}
+
   return (
     <>
       <Heading>
@@ -48,7 +51,6 @@ export default function Header({ color }) {
             lineHeight={"110%"}
           >
             {profile.headerName} <br />
-            {/* TODO: Add Animation */}
             
               <Text as={"span"} color={`${color}.400`}>
               <TypeAnimation
@@ -57,16 +59,13 @@ export default function Header({ color }) {
                 1300,
                 'I am a problem solver.',
                 1300,
-                'I am a continuous learner.',
+                'I like to learn new things.',
                 1300
               ]}
               speed={40}
               repeat={Infinity}
               />
               </Text>
-            {/* <Text as={"span"} color={`${color}.400`}>
-              {profile.headerRole}
-            </Text> */}
           </Heading>
           <Text
             color={"gray.500"}
@@ -97,9 +96,9 @@ export default function Header({ color }) {
               variant={"link"}
               colorScheme={"blue"}
               size={"sm"}
-              onClick={scrollToContact}
+              onClick={resumeDownload}
             >
-              Contact Me
+              View Resume
             </Button>
             <Box>
               <Icon

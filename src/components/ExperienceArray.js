@@ -3,10 +3,10 @@ import { useState, useEffect } from "react";
 const parseExperience = (mdContent) => {
   const experience = [];
   const lines = mdContent.split("\n");
-
+  
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
-
+    console.log(line);
     if (line.startsWith("## ")) {
       const company = line.substr(3).trim();
       const positionLine = lines[++i]
@@ -14,6 +14,7 @@ const parseExperience = (mdContent) => {
         .split("|")
         .map((s) => s.trim());
       const position = positionLine[0].slice(1, -1);
+      console.log(position);
       const duration = positionLine[1].trim();
       const imageLine = lines[++i];
       const image = imageLine.match(/!\[(.*)\]\((.*)\)/)[2];
