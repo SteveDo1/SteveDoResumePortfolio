@@ -13,22 +13,6 @@ function App() {
   // blue, cyan, gray, green, orange, pink, purple, red, teal, yellow
   // edit this variable to change the color theme
   let color = "blue";
-  // let checkColorMode = localStorage.getItem("chakra-ui-color-mode");
-  // console.log(checkColorMode);
-
-  // if (checkColorMode === "light"){
-  //   color = "blue";
-  // }
-  // else{
-  //   color = "yellow";
-  // }
-  // useEffect(() => {
-  // }, [color]);
-  
-  
-
-
-
 
   return (
     <>

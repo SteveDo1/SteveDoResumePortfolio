@@ -11,7 +11,7 @@ Hi there! My name is Steve Do, and I am a software developer with a passion for 
 <!-- TODO: Add Line Break, Add Profile Picure (Left Side) and Align right side for Text, Also add marquis for skills -->
 
 ## Contact
-Write your "Contact" section here.
+I’m currently looking for any new opportunities so my mailbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
 - LinkedIn: https://linkedin.com/in/stevedo1
 - GitHub: https://github.com/SteveDo1
 - Email: steve.do@hotmail.com

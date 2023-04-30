@@ -42,7 +42,7 @@ export default function Projects({ color }) {
           spacing={{ base: 8, md: 14 }}
           pb={{ base: 20, md: 36 }}
         >
-          <Stack align="center" direction="row" p={4}>
+          <Stack align="center" direction="row" p={2}>
             <HStack mx={4}>
               <Text color={`${color}.400`} fontWeight={800}>
                 03.
@@ -50,6 +50,13 @@ export default function Projects({ color }) {
               <Text fontWeight={800}>Projects</Text>
             </HStack>
             <Divider orientation="horizontal" />
+          </Stack>
+          <Stack align="center">
+            <HStack>
+              <Text color={"white.600"} fontSize={"xl"}>
+                More projects coming soon!
+              </Text>
+            </HStack>
           </Stack>
           <Stack px={4} spacing={4}>
             {projects.map((project) => (

@@ -15,8 +15,8 @@
 - ![logo512](../assets/experience/rbc.png)
 - Tags: Tech
 - Badges:
-  - Process Automation [green]
-  - Web Development [green]
+  - Process Automation [yellow]
+  - Web Development [yellow]
 - List Items:
   - Supported Technology & Operations Supplier Management Office by developing solutions to meet clients’ growing needs for automation and enhancing process controls & governance
   - Automated Tableau, SharePoint and Excel processes using VBA and Python
@@ -28,7 +28,7 @@
 - Tags: Tech
 - Badges:
   - DevOps Automation [blue]
-  - Data Analysis [blue]
+  - Data Analytics [blue]
 - List Items:
   - Supported the Site Reliability Engineering & Automation team by developing solutions to meet internal clients’ needs for DevOps automation
   - Created scripts using Python & PowerShell to retrieve data automatically for Tableau
@@ -44,24 +44,16 @@
 - List Items:
   - Automated supplier risk reporting processes by using SharePoint, Tableau, and VBA
   - Created a SharePoint site for Quarterly Third-Party Risk Performance Monitoring surveys that tracks data through a Tableau dashboard
+  - Assisted Supplier Management operations by updating & refreshing dashboards
 
-## BDO
-- *Financial Analyst* | March 2019 - May 2019
-- ![logo512](../assets/experience/bdo.png)
-- Tags: Business
-- Badges:
-  - Finance [green]
-  - Valuations [green]
-- List Items:
-  - Analyzed company and industry-specific strengths, weaknesses, opportunities and threats with a view to determine the cash flow risks of the companies involved
 
 ## Royal Bank of Canada
 - *Junior Strategy Analyst Co-op* | January 2018 - April 2018
 - ![logo512](../assets/experience/rbc.png)
 - Tags: Business
 - Badges:
-  - Process Automation [yellow]
-  - Business Intelligence [yellow]
+  - Data Analytics [purple]
+  - Business Intelligence [purple]
 - List Items:
   - Produced financial metric reports, scorecards and graphs on a monthly & quarterly basis
   - Analyzed performance through data analytics by utilizing Tableau, MS Access & Excel
@@ -83,8 +75,8 @@
 - ![logo512](../assets/experience/cra.png)
 - Tags: Business
 - Badges:
-  - Government [yellow]
-  - Investigations [yellow]
+  - Government [cyan]
+  - Taxation [cyan]
 - List Items:
   - Responsible for ensuring compliance with the filing requirements of individuals, businesses, corporations and trusts as outlined in the Income Tax Act
   - Presented digital process improvements to the Innovation Committee, aimed at reducing wait times for officers by ensuring consistency in letter creation, thus showcasing potential cost saving

@@ -5,12 +5,26 @@ import {
   Text,
   Container,
   Box,
+  keyframes,
+  Button,
   HStack,
 } from "@chakra-ui/react";
 import ProfileArray from "./ProfileArray";
 import profilePic from "../assets/profilepic.jpg"
+import { motion } from 'framer-motion';
+import { useState } from "react";
 export default function About({ color }) {
   const profile = ProfileArray();
+  const[isHovering, setIsHovering] = useState(false);
+  const animationKeyframes = keyframes`
+  0% { transform: rotate(0); }
+  25% { transform: rotate(0);}
+  50% { transform: rotate(360deg); }
+  75% { transform: rotate(360deg);}
+  100% { transform: rotate(0);}
+`;
+ const animation = `${animationKeyframes} 2s ease-in-out infinite`;
+
     return (
       <>
         <Container maxW={"3xl"} id="about">
@@ -32,12 +46,17 @@ export default function About({ color }) {
             <Stack>
               <HStack mx={1}>
                 <Image
+                  onMouseEnter={() => setIsHovering(true)}
+                  onMouseLeave={() => setIsHovering(false)}
+                  _hover={{
+                    animation: animation
+                  }}
+                  
                   borderRadius='full'
                   boxSize='150px'
-                  //src='https://media.licdn.com/dms/image/C4E03AQHZysailNTsww/profile-displayphoto-shrink_800_800/0/1520392582627?e=1687996800&v=beta&t=2e685tW1f9iZfiNtlGuSoEI4tDVyt8iYIfzhVY_fmJc'
                   src= {profilePic}
                   alt='Steve Do Profile Picture'
-                />
+                  />
                 <Text color={"white.600"} fontSize={"xl"} px={3}>
                   {profile.about}
                 </Text>

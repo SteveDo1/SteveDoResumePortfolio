@@ -7,6 +7,8 @@ import {
   HStack,
   Heading,
   Center,
+  Link,
+  Button,
 } from "@chakra-ui/react";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import ProfileArray from "./ProfileArray";
@@ -42,12 +44,25 @@ export default function Contact({ color }) {
           </Stack>
           <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"}>
             <Heading fontSize={"3xl"}>Let's stay in touch!</Heading>
-            <Text color={"gray.600"} fontSize={"xl"} px={4}>
+            <Text color={"gray.500"} fontSize={"xl"} px={4}>
               {profile.contact}
             </Text>
-            <Text color={`${color}.500`} fontWeight={600} fontSize={"lg"} px={4}>
-              {profile.email}
-            </Text>
+            <Center>
+              <Button
+                colorScheme={color}
+                align='center'
+                w='30%'
+                bg={`${color}.400`}
+                rounded={"full"}
+                px={6}
+                _hover={{
+                  bg: `${color}.500`,
+                }}
+                onClick={email}
+              >
+                Say Hello!
+              </Button>
+            </Center>
             <Center>
               <HStack pt={4} spacing={4}>
                 <FaLinkedin onClick={linkedin} size={28} />
