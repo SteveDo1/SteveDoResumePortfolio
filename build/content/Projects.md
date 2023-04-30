@@ -1,26 +1,9 @@
-## Project A
-Description
-- ![600x200](https://via.placeholder.com/600x200)
+## My First Website: Favourite NBA Teams
+ This was created in my first year of college. It's a nice reminder of when I first got into programming and how much I've learned since then.
+- ![600x200](../assets/projects/Project1.png)
 - Tags: Category 1
 - Badges:
-  - Badge [blue]
+  - HTML/CSS [blue]
 - Buttons:
   - Link [https://example.com]
 
-## Project B
-Description
-- ![600x200](https://via.placeholder.com/600x200)
-- Tags: Category 2
-- Badges:
-  - Badge [blue]
-- Buttons:
-  - Link [https://example.com]
-
-## Project C
-Description
-- ![600x200](https://via.placeholder.com/600x200)
-- Tags: Category 3
-- Badges:
-  - Badge [blue]
-- Buttons:
-  - Link [https://example.com]
