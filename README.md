@@ -130,6 +130,6 @@ You can customize the design of your website by modifying the `theme.js` file lo
 
 ## Usage
 
-You may use this template for your own portfolio as long as you give me proper credit by linking back to my profile.
+This website is based on https://github.com/eldoraboo/portable-portfolio
 
 For more details on hosting this site, you may refer to [A Step-by-Step Guide: Deploying on Netlify](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/)
