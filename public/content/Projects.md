@@ -5,5 +5,5 @@
 - Badges:
   - HTML/CSS [blue]
 - Buttons:
-  - Link [https://example.com]
+  - Link [https://stevedo1.github.io/first-website]
 
